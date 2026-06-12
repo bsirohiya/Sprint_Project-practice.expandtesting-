@@ -1,0 +1,18 @@
+{
+  "valid_note_data": {
+    "title": "Test Note",
+    "description": "This is a test note for API testing.",
+    "category": "Work"
+  },
+  "invalid_note_data": {
+    "title": "ss",
+    "description": "",
+    "category": "Work"
+  },
+  "edit_note_data": {
+    "title": "Updated Test Note",
+    "description": "This is an updated test note for API testing.",
+    "category": "Home",
+    "completed": false
+  }
+}

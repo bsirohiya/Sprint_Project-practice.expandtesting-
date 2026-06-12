@@ -1,0 +1,10 @@
+{
+  "valid_user": {
+    "email": "teseha2953@brixozu.com",
+    "password":"123456"
+  },
+  "invalid_user": {
+    "email": "string",
+    "password": "string"
+  }
+}
