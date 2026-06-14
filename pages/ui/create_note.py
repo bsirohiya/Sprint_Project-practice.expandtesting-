@@ -37,20 +37,11 @@ class CreateNote(BasePage):
     def valid_note_title(self):
         return self.validate_note(self.valid_note_title_text)
 
-    def count_note_by_title_desc(self, title, description):
-        """Count occurrences of (title, description) pair in the UI"""
-        try:
-            title_elements = self.wait.until(EC.visibility_of_all_elements_located(self.valid_note_title_text))
-            desc_elements = self.wait.until(EC.visibility_of_all_elements_located(self.valid_note_desc))
-            
-            titles = [e.text for e in title_elements]
-            descs = [e.text for e in desc_elements]
-            
-            count = 0
-            for i in range(min(len(titles), len(descs))):
-                if titles[i] == title and descs[i] == description:
-                    count += 1
-            return count
-        except (TimeoutException, NoSuchElementException):
-            return 0
+    def is_note_present(self, title):
+        titles = self.driver.find_elements(*self.valid_note_title_text)
 
+        for note in titles:
+            if note.text.strip() == title:
+                return True
+
+        return False

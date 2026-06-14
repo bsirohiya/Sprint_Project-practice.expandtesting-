@@ -13,7 +13,14 @@ class BasePage:
     # UI functions
 
     def click(self, locator):
-        self.wait.until(EC.visibility_of_element_located(locator)).click()
+
+        element = self.wait.until(EC.visibility_of_element_located(locator))
+        self.dismiss_ads()
+        try:
+            element.click()
+        except Exception:
+            # Final fallback: JavaScript click bypasses all overlay hit-testing
+            self.driver.execute_script("arguments[0].click();", element)
 
     def enter_text(self, locator, text):
         self.wait.until(EC.visibility_of_element_located(locator)).clear()
@@ -58,3 +65,13 @@ class BasePage:
         folder = os.path.join(os.getcwd(), "screenshots")  # To create folder
         os.makedirs(folder, exist_ok=True)
         self.driver.save_screenshot(f"{folder}/screenshot_{name}.png")
+
+    def dismiss_ads(self):
+        """Remove full-screen ad iframes (e.g. Google Ads) and grippy-host overlays
+        that intercept clicks on the actual page elements."""
+        self.driver.execute_script("""
+            // Remove full-viewport ad iframes (aswift_*)
+            document.querySelectorAll('iframe[id^="aswift_"]').forEach(el => el.remove());
+            // Remove grippy-host overlay (Chrome DevTools panel handle)
+            document.querySelectorAll('div.grippy-host').forEach(el => el.remove());
+        """)

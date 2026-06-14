@@ -1,0 +1,4 @@
+[32mINFO    [0m test_delete_note:test_delete_note.py:15 Starting test_delete_note
+[32mINFO    [0m test_delete_note:test_delete_note.py:19 Login Page Load Time: 4498 ms
+[32mINFO    [0m test_delete_note:test_delete_note.py:25 Notes Page Load Time: 2772 ms
+[32mINFO    [0m test_delete_note:test_delete_note.py:44 Note deleted successfully

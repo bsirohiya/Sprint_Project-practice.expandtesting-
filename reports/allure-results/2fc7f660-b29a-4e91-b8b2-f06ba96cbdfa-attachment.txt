@@ -1,0 +1,5 @@
+[32mINFO    [0m test_create_note:test_create_note.py:53 Starting test_invalid_create_note
+[32mINFO    [0m test_create_note:test_create_note.py:57 Login Page Load Time: 5396 ms
+[32mINFO    [0m test_create_note:test_create_note.py:70 Notes Page Load Time: 2444 ms
+[32mINFO    [0m test_create_note:test_create_note.py:71 Attempting to create empty note with title: he
+[33mWARNING [0m test_create_note:test_create_note.py:83 Invalid create note assertion failed, taking screenshot

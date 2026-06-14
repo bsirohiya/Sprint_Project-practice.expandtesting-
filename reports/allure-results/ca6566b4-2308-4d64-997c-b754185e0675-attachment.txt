@@ -1,0 +1,5 @@
+[32mINFO    [0m test_edit_note:test_edit_note.py:58 Starting test_invalid_edit_note
+[32mINFO    [0m test_edit_note:test_edit_note.py:63 Login Page Load Time: 5868 ms
+[32mINFO    [0m test_edit_note:test_edit_note.py:75 Notes Page Load Time: 2336 ms
+[32mINFO    [0m test_edit_note:test_edit_note.py:76 Attempting invalid edit with title: ed
+[33mWARNING [0m test_edit_note:test_edit_note.py:92 Invalid edit note assertion failed, taking screenshot

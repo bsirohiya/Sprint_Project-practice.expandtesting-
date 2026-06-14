@@ -1,0 +1,13 @@
+[32mINFO    [0m test_delete_and_validate:test_delete_and_validate.py:17 Starting test_delete_and_validate
+[32mINFO    [0m test_delete_and_validate:test_delete_and_validate.py:21 Login Page Load Time: 5972 ms
+[32mINFO    [0m test_delete_and_validate:test_delete_and_validate.py:30 Creating test note with title: Note to be deleted_1781338887
+[32mINFO    [0m test_delete_and_validate:test_delete_and_validate.py:36 Notes Page Load Time: 3787 ms
+[32mINFO    [0m test_delete_and_validate:test_delete_and_validate.py:37 User logged in successfully
+[32mINFO    [0m test_delete_and_validate:test_delete_and_validate.py:47 Note created via UI
+[32mINFO    [0m test_delete_and_validate:test_delete_and_validate.py:53 Note verified in UI
+[32mINFO    [0m test_delete_and_validate:test_delete_and_validate.py:60 Fetched all notes via API
+[32mINFO    [0m test_delete_and_validate:test_delete_and_validate.py:72 Note found in API with ID: 6a2d1317c760c30296c895e3
+[32mINFO    [0m test_delete_and_validate:test_delete_and_validate.py:78 Note deleted via API, status: 200
+[32mINFO    [0m test_delete_and_validate:test_delete_and_validate.py:83 UI refreshed
+[32mINFO    [0m test_delete_and_validate:test_delete_and_validate.py:88 Note verified as deleted in UI
+[32mINFO    [0m test_delete_and_validate:test_delete_and_validate.py:89 test_delete_and_validate passed

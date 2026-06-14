@@ -1,0 +1,101 @@
+2026-06-13 13:50:18,681 - test_create_note - [INFO] - Starting test_valid_create_note
+2026-06-13 13:50:18,814 - test_create_note - [INFO] - Login Page Load Time: 4101 ms
+2026-06-13 13:50:20,818 - test_login - [INFO] - Starting test_invalid_login
+2026-06-13 13:50:20,845 - test_login - [INFO] - Login Page Load Time: 6245 ms
+2026-06-13 13:50:21,839 - test_edit_note - [INFO] - Starting test_valid_edit_note
+2026-06-13 13:50:22,063 - test_edit_note - [INFO] - Login Page Load Time: 7117 ms
+2026-06-13 13:50:27,941 - test_create_note - [INFO] - Notes Page Load Time: 2637 ms
+2026-06-13 13:50:27,942 - test_create_note - [INFO] - Creating note with title: Meeting Notes
+2026-06-13 13:50:28,462 - test_login - [INFO] - Notes Page Load Time: 3222 ms
+2026-06-13 13:50:29,979 - test_edit_note - [INFO] - Notes Page Load Time: 2076 ms
+2026-06-13 13:50:29,980 - test_edit_note - [INFO] - Editing note with title: edited title
+2026-06-13 13:50:33,266 - test_edit_note - [INFO] - test_valid_edit_note passed
+2026-06-13 13:50:33,586 - test_create_note - [INFO] - test_valid_create_note passed
+2026-06-13 13:50:54,461 - test_create_note - [INFO] - Starting test_invalid_create_note
+2026-06-13 13:50:54,511 - test_create_note - [INFO] - Login Page Load Time: 6431 ms
+2026-06-13 13:50:54,963 - test_edit_note - [INFO] - Starting test_invalid_edit_note
+2026-06-13 13:50:54,995 - test_edit_note - [INFO] - Login Page Load Time: 7093 ms
+2026-06-13 13:51:03,695 - test_edit_note - [INFO] - Notes Page Load Time: 1857 ms
+2026-06-13 13:51:03,696 - test_edit_note - [INFO] - Attempting invalid edit with title: edi
+2026-06-13 13:51:03,996 - test_create_note - [INFO] - Notes Page Load Time: 2468 ms
+2026-06-13 13:51:03,997 - test_create_note - [INFO] - Attempting to create empty note with title: he
+2026-06-13 13:51:05,101 - test_create_note - [WARNING] - Invalid create note assertion failed, taking screenshot
+2026-06-13 13:51:05,102 - test_edit_note - [WARNING] - Invalid edit note assertion failed, taking screenshot
+2026-06-13 13:51:13,979 - test_login - [INFO] - Starting test_valid_login
+2026-06-13 13:51:14,026 - test_login - [INFO] - Login Page Load Time: 26015 ms
+2026-06-13 13:51:27,306 - test_login - [INFO] - Notes Page Load Time: 7073 ms
+2026-06-13 13:51:27,319 - test_login - [INFO] - test_valid_login passed
+2026-06-13 13:51:27,462 - test_delete_and_validate - [INFO] - Starting test_delete_and_validate
+2026-06-13 13:51:27,496 - test_delete_and_validate - [INFO] - Login Page Load Time: 5972 ms
+2026-06-13 13:51:27,501 - test_delete_and_validate - [INFO] - Creating test note with title: Note to be deleted_1781338887
+2026-06-13 13:51:41,376 - test_delete_and_validate - [INFO] - Notes Page Load Time: 3787 ms
+2026-06-13 13:51:41,377 - test_delete_and_validate - [INFO] - User logged in successfully
+2026-06-13 13:51:43,059 - test_delete_and_validate - [INFO] - Note created via UI
+2026-06-13 13:51:47,446 - test_delete_and_validate - [INFO] - Note verified in UI
+2026-06-13 13:51:48,365 - test_delete_and_validate - [INFO] - Fetched all notes via API
+2026-06-13 13:51:48,366 - test_delete_and_validate - [INFO] - Note found in API with ID: 6a2d1317c760c30296c895e3
+2026-06-13 13:51:48,517 - test_delete_note - [INFO] - Starting test_delete_note
+2026-06-13 13:51:48,559 - test_delete_note - [INFO] - Login Page Load Time: 5318 ms
+2026-06-13 13:51:48,829 - test_delete_and_validate - [INFO] - Note deleted via API, status: 200
+2026-06-13 13:51:55,459 - test_delete_note - [INFO] - Notes Page Load Time: 1859 ms
+2026-06-13 13:51:55,460 - test_delete_note - [INFO] - User logged in successfully
+2026-06-13 13:51:55,488 - test_delete_note - [INFO] - Scrolling to delete button
+2026-06-13 13:51:55,576 - test_delete_and_validate - [INFO] - UI refreshed
+2026-06-13 13:51:55,864 - test_delete_note - [INFO] - Note deleted successfully
+2026-06-13 13:51:56,116 - test_delete_and_validate - [INFO] - Note verified as deleted in UI
+2026-06-13 13:51:56,118 - test_delete_and_validate - [INFO] - test_delete_and_validate passed
+2026-06-13 13:52:12,104 - test_validate_note - [INFO] - Starting test_validate_note
+2026-06-13 13:52:12,162 - test_validate_note - [INFO] - Login Page Load Time: 5627 ms
+2026-06-13 13:52:12,170 - test_validate_note - [INFO] - Creating and validating note with title: hehehehe
+2026-06-13 13:52:21,362 - test_validate_note - [INFO] - Notes Page Load Time: 2886 ms
+2026-06-13 13:52:22,205 - test_validate_note - [INFO] - Note created via UI
+2026-06-13 13:52:23,426 - test_validate_note - [INFO] - Fetched notes via API, status: 200
+2026-06-13 13:52:23,444 - test_validate_note - [INFO] - Note found in API response with ID: 6a2d133ec760c30296c8960f
+2026-06-13 13:52:23,445 - test_validate_note - [INFO] - test_validate_note passed
+2026-06-14 13:11:27,805 - test_create_note - [INFO] - Starting test_invalid_create_note
+2026-06-14 13:11:27,993 - test_create_note - [INFO] - Login Page Load Time: 5396 ms
+2026-06-14 13:11:35,288 - test_create_note - [INFO] - Notes Page Load Time: 2444 ms
+2026-06-14 13:11:35,289 - test_create_note - [INFO] - Attempting to create empty note with title: he
+2026-06-14 13:11:35,761 - test_create_note - [WARNING] - Invalid create note assertion failed, taking screenshot
+2026-06-14 13:58:19,264 - test_delete_note - [INFO] - Starting test_delete_note
+2026-06-14 13:58:19,287 - test_delete_note - [INFO] - Login Page Load Time: 5537 ms
+2026-06-14 13:58:27,079 - test_delete_note - [INFO] - Notes Page Load Time: 2004 ms
+2026-06-14 13:58:29,396 - test_delete_note - [INFO] - Note deleted successfully
+2026-06-14 13:59:37,826 - test_delete_note - [INFO] - Starting test_delete_note
+2026-06-14 13:59:37,855 - test_delete_note - [INFO] - Login Page Load Time: 6957 ms
+2026-06-14 13:59:46,638 - test_delete_note - [INFO] - Notes Page Load Time: 3532 ms
+2026-06-14 13:59:48,868 - test_delete_note - [INFO] - Note deleted successfully
+2026-06-14 14:00:33,489 - test_delete_note - [INFO] - Starting test_delete_note
+2026-06-14 14:00:33,507 - test_delete_note - [INFO] - Login Page Load Time: 4498 ms
+2026-06-14 14:00:41,352 - test_delete_note - [INFO] - Notes Page Load Time: 2772 ms
+2026-06-14 14:00:43,609 - test_delete_note - [INFO] - Note deleted successfully
+2026-06-14 14:06:31,866 - test_edit_note - [INFO] - Starting test_valid_edit_note
+2026-06-14 14:06:31,907 - test_edit_note - [INFO] - Login Page Load Time: 6524 ms
+2026-06-14 14:06:40,280 - test_edit_note - [INFO] - Notes Page Load Time: 2806 ms
+2026-06-14 14:06:40,281 - test_edit_note - [INFO] - Editing note with title: edited title
+2026-06-14 14:06:45,391 - test_edit_note - [INFO] - test_valid_edit_note passed
+2026-06-14 14:06:59,409 - test_edit_note - [INFO] - Starting test_invalid_edit_note
+2026-06-14 14:06:59,425 - test_edit_note - [INFO] - Login Page Load Time: 4789 ms
+2026-06-14 14:07:06,452 - test_edit_note - [INFO] - Notes Page Load Time: 2245 ms
+2026-06-14 14:07:06,453 - test_edit_note - [INFO] - Attempting invalid edit with title: edi
+2026-06-14 14:07:07,289 - test_edit_note - [WARNING] - Invalid edit note assertion failed, taking screenshot
+2026-06-14 14:13:39,105 - test_edit_note - [INFO] - Starting test_invalid_edit_note
+2026-06-14 14:13:39,124 - test_edit_note - [INFO] - Login Page Load Time: 4271 ms
+2026-06-14 14:13:46,086 - test_edit_note - [INFO] - Notes Page Load Time: 2230 ms
+2026-06-14 14:13:46,086 - test_edit_note - [INFO] - Attempting invalid edit with title: edi
+2026-06-14 14:13:46,728 - test_edit_note - [WARNING] - Invalid edit note assertion failed, taking screenshot
+2026-06-14 14:14:52,366 - test_edit_note - [INFO] - Starting test_invalid_edit_note
+2026-06-14 14:14:52,383 - test_edit_note - [INFO] - Login Page Load Time: 5289 ms
+2026-06-14 14:14:59,349 - test_edit_note - [INFO] - Notes Page Load Time: 2142 ms
+2026-06-14 14:14:59,350 - test_edit_note - [INFO] - Attempting invalid edit with title: edi
+2026-06-14 14:14:59,974 - test_edit_note - [WARNING] - Invalid edit note assertion failed, taking screenshot
+2026-06-14 14:16:19,425 - test_edit_note - [INFO] - Starting test_invalid_edit_note
+2026-06-14 14:16:19,446 - test_edit_note - [INFO] - Login Page Load Time: 5868 ms
+2026-06-14 14:16:26,613 - test_edit_note - [INFO] - Notes Page Load Time: 2336 ms
+2026-06-14 14:16:26,613 - test_edit_note - [INFO] - Attempting invalid edit with title: ed
+2026-06-14 14:16:27,246 - test_edit_note - [WARNING] - Invalid edit note assertion failed, taking screenshot
+2026-06-14 14:28:28,276 - test_edit_note - [INFO] - Starting test_invalid_edit_note
+2026-06-14 14:28:28,319 - test_edit_note - [INFO] - Login Page Load Time: 4995 ms
+2026-06-14 14:28:34,816 - test_edit_note - [INFO] - Notes Page Load Time: 1055 ms
+2026-06-14 14:28:34,816 - test_edit_note - [INFO] - Attempting invalid edit with title: edi
+2026-06-14 14:28:35,390 - test_edit_note - [WARNING] - Invalid edit note assertion failed, taking screenshot

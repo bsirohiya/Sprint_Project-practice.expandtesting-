@@ -34,10 +34,11 @@ class LoginPage(BasePage):
         email = env['email']
         password = env['password']
 
-        sleep(1)
+        sleep(2)
         self.scroll_to_amt(270)
         self.click_to_login()
         self.scroll_to_amt(265)
         self.enter_email(email)
         self.enter_password(password)
         self.click_login_btn()
+        sleep(2)

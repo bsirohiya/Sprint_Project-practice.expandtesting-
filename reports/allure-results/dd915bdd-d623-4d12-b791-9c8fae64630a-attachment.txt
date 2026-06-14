@@ -1,0 +1,8 @@
+[32mINFO    [0m test_validate_note:test_validate_note.py:15 Starting test_validate_note
+[32mINFO    [0m test_validate_note:test_validate_note.py:19 Login Page Load Time: 5627 ms
+[32mINFO    [0m test_validate_note:test_validate_note.py:29 Creating and validating note with title: hehehehe
+[32mINFO    [0m test_validate_note:test_validate_note.py:33 Notes Page Load Time: 2886 ms
+[32mINFO    [0m test_validate_note:test_validate_note.py:40 Note created via UI
+[32mINFO    [0m test_validate_note:test_validate_note.py:45 Fetched notes via API, status: 200
+[32mINFO    [0m test_validate_note:test_validate_note.py:57 Note found in API response with ID: 6a2d133ec760c30296c8960f
+[32mINFO    [0m test_validate_note:test_validate_note.py:61 test_validate_note passed

@@ -6,14 +6,14 @@ class BaseAPI:
         self.session = requests.Session()
 
     def get(self, endpoint, headers=None, params=None):
-        return self.session.get(f"{self.base_url_api}{endpoint}", headers=headers, params=params, verify=False)
+        return self.session.get(f"{self.base_url_api}{endpoint}", headers=headers, params=params)
 
     def post(self, endpoint, headers=None, json=None, params=None):
         return self.session.post(f"{self.base_url_api}{endpoint}", headers=headers, json=json, params=params)
 
     def put(self, endpoint, headers=None, json=None, params=None):
-        return self.session.put(f"{self.base_url_api}{endpoint}", headers=headers, json=json, params=params, verify=False)
+        return self.session.put(f"{self.base_url_api}{endpoint}", headers=headers, json=json, params=params)
 
     def delete(self, endpoint, headers=None, params=None):
-        return self.session.delete(f"{self.base_url_api}{endpoint}", headers=headers, params=params, verify=False)
+        return self.session.delete(f"{self.base_url_api}{endpoint}", headers=headers, params=params)
 

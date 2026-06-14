@@ -1,0 +1,3 @@
+[32mINFO    [0m test_login:test_login.py:15 Starting test_invalid_login
+[32mINFO    [0m test_login:test_login.py:19 Login Page Load Time: 6245 ms
+[32mINFO    [0m test_login:test_login.py:37 Notes Page Load Time: 3222 ms

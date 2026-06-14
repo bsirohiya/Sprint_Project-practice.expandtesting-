@@ -1,0 +1,5 @@
+[32mINFO    [0m test_edit_note:test_edit_note.py:16 Starting test_valid_edit_note
+[32mINFO    [0m test_edit_note:test_edit_note.py:20 Login Page Load Time: 7117 ms
+[32mINFO    [0m test_edit_note:test_edit_note.py:30 Notes Page Load Time: 2076 ms
+[32mINFO    [0m test_edit_note:test_edit_note.py:31 Editing note with title: edited title
+[32mINFO    [0m test_edit_note:test_edit_note.py:41 test_valid_edit_note passed

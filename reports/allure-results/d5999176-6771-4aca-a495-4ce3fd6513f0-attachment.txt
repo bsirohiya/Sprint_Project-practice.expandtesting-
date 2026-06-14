@@ -1,0 +1,4 @@
+[32mINFO    [0m test_login:test_login.py:49 Starting test_valid_login
+[32mINFO    [0m test_login:test_login.py:53 Login Page Load Time: 26015 ms
+[32mINFO    [0m test_login:test_login.py:71 Notes Page Load Time: 7073 ms
+[32mINFO    [0m test_login:test_login.py:74 test_valid_login passed

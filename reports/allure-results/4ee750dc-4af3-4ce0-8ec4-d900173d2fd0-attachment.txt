@@ -1,0 +1,5 @@
+[32mINFO    [0m test_create_note:test_create_note.py:15 Starting test_valid_create_note
+[32mINFO    [0m test_create_note:test_create_note.py:19 Login Page Load Time: 4101 ms
+[32mINFO    [0m test_create_note:test_create_note.py:33 Notes Page Load Time: 2637 ms
+[32mINFO    [0m test_create_note:test_create_note.py:34 Creating note with title: Meeting Notes
+[32mINFO    [0m test_create_note:test_create_note.py:47 test_valid_create_note passed
